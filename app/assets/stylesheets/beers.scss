@@ -1,3 +1,12 @@
 // Place all the styles related to the Beers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.profiler-results.profiler-left.profiler-top.profiler-no-controls {
+    opacity: .5 !important;
+    transition: opacity .12s ease;
+}
+
+.profiler-results.profiler-left.profiler-top.profiler-no-controls:hover {
+    opacity: .96 !important
+}
